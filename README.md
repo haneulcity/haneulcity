@@ -1,10 +1,10 @@
 # HANUEL CITY
 ## One of the MCPE(Bedrock Engine) Open Binary city map from South Korea
 
-For Korean Version, Please visit [링크](http://pbdiary.pw/pages/hncity)
+For Korean Version, Please visit [링크](http://pbdiary.pw)
 
 Welcome to HaneulCity - A huge city map project.
-Its map has been built since 2013 and published on [my own blog(Korean)](http://pbdiary.pw).
+Its map has been built since 2013 and published on [my own blog(Korean)](http://pbdiary.pw). However, in Korea, many people are not interested in MCPE. Now, I changed my plan for this map and Github Publishing is one of changed plan.
 
 If you want to contribute to this map, please contact [to my twitter account](https://twitter.com/lego37yoon) or [email me](mailto:lego37yoon@outlook.com). I don't operate server for this map, so schedule set is needed.
 
@@ -87,19 +87,9 @@ For Windows 10 Edition:
   * Extracting folder is (Windows Installed Drive)/Users/(Your Username)/Appdata/Local/Packages/(Find minecraft UWP spell contained folder.)/games/com.mojang/minecraftWorlds
 3. Same as Android.
 
-Other Editions:
- * Please using Google Search instead. I don't know other editions.
-
-## Requirements
-
-For Android:
- * Some devices cannot run Department Store and Haneul Station part because of too many objects. Please modify it with other platform.
- * Other parts of this map can run at LG G3, and old version of this map was built with LG Optimus Vu 2. Now, this map is maintaining with Nexus 5X. Please check your phone spec and compare with these devices. If you have phone that is more powerful than these devices, you can run this smoothly.
-For Windows:
- * I am now constructing department store with ThinkPad T420s, which has Intel Core i7 2620M(Intel HD Graphics 2000) and NVIDIA Quadro NVS 4200M. Please compare with my computer and if your graphic card is better than me, you can run this map smoothly.
 ## Other Details
 
-If you want to request new building, please use issue tracker(for other regions) or contact me with twitter (@lego37yoon) if you are Korean.
+If you want to request new building, please use issue tracker or contact me with twitter (@lego37yoon) if you are Korean.
 
 If there is some errors in this map, or not underconstructing building needs to fix somthing, you should use Issue tracker. Also if you are Korean.
 
