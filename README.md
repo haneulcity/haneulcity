@@ -10,66 +10,76 @@ If you want to contribute to this map, please contact [to my twitter account](ht
 
 This map now including these contents:
  * HANUEL CITY
-  * Department Store(Under Construction)
-  * Library with Book Store
-  * Subway Station (Line 1/2/3, Art Rapid Transit)
-  * Railroad Station (Haneul Line)
+  * Department Store(Under Construction) - GR DEPARTMENT
+  * Library with Book Store - HANUEL BOOKPLEX
+  * Subway Station (Line 1/2/3, Art Rapid Transit) - HANUEL STATION
+  * Railroad Station (Haneul Line) - HANUEL STATION
   * Road to Mu-Town / Road to FOREST Town
-  * Underway for Cars
+  * Underway for Cars - HANUEL UNDERWAY
   * Temporary Built Ship Station
+  * University(Planning) - HANUEL UNIVERSITY
+  * Express Way(Planning) - MUHANEUL EXPRESS WAY
  * Mu-Town
   * Railroad Station (Haneul Line)
-  * Movie Theater(Multiplex) for Mu-Town
-  * Town Center
+  * Movie Theater(Multiplex) for Mu-Town (Under Construction) - MUTOWN GGV
+  * Town hall
   * Parking Lot(Under Construction)
-  * Mension No.1
-  * MART
-  * Tunnel to Waterdrop City
+  * Apartment(Korean Style) (Planning)
+  * MART (Planning) - HAEMALGUEM MART
+  * Tunnel to Waterdrop City - WATERDROP TUNNEL
  * Waterdrop City
   * Normal Road(Under Construction)
   * Normal Houses ×6 (Planning)
  * Forest Town
-  * Mension No.1
-  * Mension No.2
-  * Railroad Station(Haneul City)
-  * Mension & Store No. 1(A.K.A Bora Town Mension)
-  * Mension No.3(Under Construction;Includes Sports Center and mini fountation.)
-  * Mension No.4&5(Planning)
-  * Mension No.6
-  * Elementary School
-  * Kindergaten
+  * Apartment Group 1(Korean Style) - FOREST TOWN 1DANJI
+   * Building 101 with Stores in 1st floor
+   * Building 102
+   * Building 103 with Swimming Pool, Sauna, mini fountation and Apartment Management Office.(Under Construction)
+   * Park
+   * Tunnel to Building 104, 105.
+   * Parking lot in underground.
+  * Railroad Station(Haneul line) - FOREST TOWN STATION
+  * Apartment No.6 with Shopping mall - BORA MENSION (Pokemon Style)
+  * Apartment No.7&8(Planning/Korean Style/with Stores)
+  * Kindergarten - FOREST TOWN KINDERGARTEN
  * White Town
-  * A library (Under Construction)
-  * Railroad Station (Haneul Line)
-  * Mension No.1~4 (Planning)
+  * A library (Under Construction) - HAYANG LIBRARY
+  * Railroad Station (Haneul Line) - HAYANG MAEUL STATION
+  * Mension No.1~4 (Planning) - HAYANG MAEUL 1DANJI ARAM APARTMENT (Korean Style)
+  * Elementary School(Planning) - HAYANG ELEMENTARY SCHOOL
  * SandCity
   * Building 1~6 (Planning)
-  * Mension 1 (Planning)
+  * Apartment 1 (Planning)
   * Sand Financial Tower(SFT) 1~6 (Planning)
-  * Subway Station ×3 (Planning)
+  * Subway Station ×3 (Planning) - SAND CITY HALL, SAND CITY, SAND FINANCIAL TOWER
   * Subway Station on the floor
   * Sand City Hall (Planning)
  * Mountain Town
-  * Subway Station ×1(Planning)
+  * Subway Station ×1(Planning) - MOUNTAIN TOWN STATION
   * Normal Houses ×5 (Planning)
   * CVS ×1 (Planning)
  * Moonlight City
-  * Building ×4 (Planning)
-  * Officetel x3 (Planning)
-  * Elementary/Middle/High School (Planning)
-  * Art Rapid Transit Station (Under Construction)
+  * Building ×4 (Planning) - MOON TOWER, DIAMOND TOWER, CRYSTAL BUILDING
+  * Building with Hotel x3 (Planning) - ARAM TOWER 1/2/3
+  * Elementary School (Planning) - MOONLIGHT ELEMENTARY SCHOOL
+  * Middle School (Planning) - MOONLIGHT MIDDLE SCHOOL
+  * High School (Planning) - MOONLIGHT HIGH SCHOOL
+  * Art Rapid Transit Station (Under Construction) - MOONLIGHT STATION
  * ART City
-  * Now Planning All of this city.
+  * Now Planning All contens of this city.
 
 ## License
 
 If you want to use this map for review, it has no limitations, so you don't need to contact me.
 
-Changes and non-commercial use is free, but for commercial use, please contact me first except review.
+Changing something, republishing and non-commercial use is free, but for commercial use, please contact me first except review.
 
-If you share this content with some changes, please keep this license.
+Email me when you use my map to your own Minecraft : Bedrock Edition. Just notice that you will use this map for server. No need to looking for allowance.
+
+If you share this content with some changes, please keep the license or use CC-BY-SA 4.0 International/CC-BY-SA-NC 4.0 International.
 
 ## How to Install
+NOTICE: I used BandiZip, Zipper 7 2.0 or Github Internal ZIP program to archive it. You can extract this with any other programs, but OWN YOUR RISK. If you ask me for help, I cannot help you ESPECIALLY when you use ALzip to extract this.
 
 For Android:
 1. Download File from Versions Tab or Download Zip for Master Branch.
@@ -83,7 +93,7 @@ For Windows 10 Edition:
 2. Extract with Bandizip or Windows Default Zip Extractor.
   * Please check "Create New Folder" Option is enabled.
   * Before Extracting, Check "Show Hidden Files" option is enabled at Windows Explorer Settings.
-  * Run Extractor as Admin Permission is recommended.
+  * Run Extractor as Admin Permission is recommended. Because Extracting folder is in your AppData folder.
   * Extracting folder is (Windows Installed Drive)/Users/(Your Username)/Appdata/Local/Packages/(Find minecraft UWP spell contained folder.)/games/com.mojang/minecraftWorlds
 3. Same as Android.
 
@@ -95,4 +105,5 @@ If there is some errors in this map, or not underconstructing building needs to 
 
 MINECRAFT is a trademark of Mojang.
 Windows is a trademark of Microsoft Corp.
+
 ⓒ2013-2018 Paperbox. All right reserved.
