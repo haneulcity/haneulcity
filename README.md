@@ -8,6 +8,17 @@ Its map has been built since 2013 and published on [my own blog(Korean)](http://
 
 If you want to contribute to this map, please contact [to my twitter account](https://twitter.com/lego37yoon) or [email me](mailto:lego37yoon@outlook.com). I don't operate server for this map, so schedule set is needed.
 
+## CURRENT BUILD
+Next Stable Build: 0.0.01
+ * Building 103 construction work is now finished.
+Next Unstable Build: 2018.09
+ * Fix Stair structure in building 103 at Forest town.
+Current Unstable Build: 20180828(dc8903f)
+ * Currently under changing building 103 stairs.
+Current Stable Build: none.
+
+## CONTENTS
+
 This map now including these contents:
  * HANUEL CITY
   * Department Store(Under Construction) - GR DEPARTMENT
