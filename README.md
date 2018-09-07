@@ -17,6 +17,8 @@ Current Stable Build: none.
 
 Older Builds: [Link(Box)](https://app.box.com/s/z2ga5d5apzzw0x4uebuzx7v2jwr1ccxl)
 
+Nightly Builds: [Link(Box)](https://app.box.com/s/gjhaop43ragv0s0lli97vkx7x98cvjm7)
+
 ## CONTENTS
 
 This map now including these contents:
