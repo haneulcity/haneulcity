@@ -1,7 +1,7 @@
 # HANUEL CITY
 ## One of the MCPE(Bedrock Engine) Open Binary city map from South Korea
 
-한국어판을 원하신다면, [링크](http://pbdiary.pw/pages/hncity)
+For Korean Version, Please visit [링크](http://pbdiary.pw/pages/hncity)
 
 Welcome to HaneulCity - A huge city map project.
 Its map has been built since 2013 and published on [my own blog(Korean)](http://pbdiary.pw). However, in Korea, many people are not interested in MCPE. Now, I changed my plan for this map and Github Publishing is one of changed plan.
@@ -23,11 +23,11 @@ Nightly Builds: [Link(Box)](https://app.box.com/s/gjhaop43ragv0s0lli97vkx7x98cvj
 
 This map now including these contents:
  * HANUEL CITY
-  * Department Store - GR DEPARTMENT
+  * Department Store(Under Construction) - GR DEPARTMENT
   * Library with Book Store - HANUEL BOOKPLEX
   * Subway Station (Line 1/2/3, Art Rapid Transit) - HANUEL STATION
   * Railroad Station (Haneul Line) - HANUEL STATION
-  * Road to Mu-Town / Road to FOREST Town / Road to Hayang Town
+  * Road to Mu-Town / Road to FOREST Town
   * Underway for Cars - HANUEL UNDERWAY
   * Temporary Built Ship Station
   * University(Planning) - HANUEL UNIVERSITY
@@ -119,4 +119,4 @@ If there is some errors in this map, or not underconstructing building needs to 
 MINECRAFT is a trademark of Mojang.
 Windows is a trademark of Microsoft Corp.
 
-ⓒ2013-2019 Paperbox. All right reserved.
+ⓒ2013-2018 Paperbox. All right reserved.
