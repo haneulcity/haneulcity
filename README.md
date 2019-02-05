@@ -1,17 +1,16 @@
 # HANUEL CITY
 ## One of the MCPE(Bedrock Engine) Open Binary city map from South Korea
 
-For Korean Version, Please visit [링크](http://pbdiary.pw/pages/hncity)
+한국어판을 원하신다면, [링크](https://pbdiary.pw/pages/hncity)를 참조해주세요
 
 Welcome to HaneulCity - A huge city map project.
-Its map has been built since 2013 and published on [my own blog(Korean)](http://pbdiary.pw). However, in Korea, many people are not interested in MCPE. Now, I changed my plan for this map and Github Publishing is one of changed plan.
+Its map has been built since 2013 and published on [my own blog(Korean)](https://pbdiary.pw). However, in Korea, many people are not interested in MCPE. Now, I changed my plan for this map and Github Publishing is one of changed plan.
 
-If you want to contribute to this map, please contact [to my twitter account](https://twitter.com/lego37yoon) or [email me](mailto:lego37yoon@outlook.com). I don't operate server for this map, so schedule set is needed.
+If you want to contribute to this map, please contact [to my twitter account](https://twitter.com/lego37yoon2) or [email me](mailto:lego37yoon@outlook.com). I don't operate server for this map, so schedule set is needed.
 
 ## CURRENT BUILD
 
-Current Unstable Build: 20180908(0989fa8)
- * Please See What is changed at Commints Page.
+Are you looking for unstable build? Click |Clone or Download| and then select |Download ZIP| to download map. I don't provide my map file via *.mcworld format.
 
 Current Stable Build: none.
 
@@ -23,7 +22,7 @@ Nightly Builds: [Link(Box)](https://app.box.com/s/gjhaop43ragv0s0lli97vkx7x98cvj
 
 This map now including these contents:
  * HANUEL CITY
-  * Department Store(Under Construction) - GR DEPARTMENT
+  * Department Store(FINAL WORKING) - GR DEPARTMENT
   * Library with Book Store - HANUEL BOOKPLEX
   * Subway Station (Line 1/2/3, Art Rapid Transit) - HANUEL STATION
   * Railroad Station (Haneul Line) - HANUEL STATION
@@ -31,10 +30,10 @@ This map now including these contents:
   * Underway for Cars - HANUEL UNDERWAY
   * Temporary Built Ship Station
   * University(Planning) - HANUEL UNIVERSITY
-  * Express Way(Planning) - MUHANEUL EXPRESS WAY
+  * Express Way(SUSPENDED) - MUHANEUL EXPRESS WAY
  * Mu-Town
   * Railroad Station (Haneul Line)
-  * Movie Theater(Multiplex) for Mu-Town (Under Construction) - MUTOWN GGV
+  * Movie Theater(Multiplex) for Mu-Town (Under Construction) - MUTOWN CKV
   * Town hall
   * Parking Lot(Under Construction)
   * Apartment(Korean Style) (Planning)
@@ -48,6 +47,8 @@ This map now including these contents:
    * Building 101 with Stores in 1st floor
    * Building 102
    * Building 103 with Swimming Pool, Sauna, mini fountation and Apartment Management Office.(Under Construction)
+   * Building 104 (Planning)
+   * Building 105 (Planning)
    * Park
    * Tunnel to Building 104, 105.
    * Parking lot in underground.
@@ -105,9 +106,10 @@ For Windows 10 Edition:
 1. Same as Android
 2. Extract with Bandizip or Windows Default Zip Extractor.
   * Please check "Create New Folder" Option is enabled.
+  * PLEASE DO NOT USE ALZIP TO EXTRACT THIS FILE. ALZIP IS THE WORST CHOICE TO EXTRACT SOMETHING.
   * Before Extracting, Check "Show Hidden Files" option is enabled at Windows Explorer Settings.
   * Run Extractor as Admin Permission is recommended. Because Extracting folder is in your AppData folder.
-  * Extracting folder is (Windows Installed Drive)/Users/(Your Username)/Appdata/Local/Packages/(Find minecraft UWP spell contained folder.)/games/com.mojang/minecraftWorlds
+  * Extracting folder is (Windows Installed Drive)/Users/(Your Username)/Appdata/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds
 3. Same as Android.
 
 ## Other Details
