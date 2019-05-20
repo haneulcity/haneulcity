@@ -1,2 +1,0 @@
-keep_inventory:0
-teleports:[]
