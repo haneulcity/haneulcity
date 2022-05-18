@@ -1,0 +1,66 @@
+# GitHub Actions YAML File by paperbox (https://github.com/lego37yoon)
+# Powered by bedrock-viz project, using pre-compiled version of bedrock-viz, for Windows.
+# This YAML file is for HaneulCity MCBE map project, but anyone can use and modify this script to serve MCBE map on the internet.
+
+name: bedrock-viz-maker
+
+# This script runs when map repository has changes. 
+# Unfortunately, this repository uses `master` branch because it was created long time ago.
+# However, if you want to use in recent repositories, please change value to your own branch that map included. (like `main`)
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+  build:
+    # Uses latest version of Windows Server because this runner uses pre-compiled version of bedrock-viz zip file.
+    runs-on: windows-latest
+
+    steps:
+      # Download v.0.1.7 (MCBE 1.18.x support) version of bedrock-viz zip file.
+      - name: Download bedrock-viz script
+        run: |
+          wget https://github.com/bedrock-viz/bedrock-viz/releases/download/v0.1.7/bedrock-viz_v0.1.7_win10-64.zip
+          unzip bedrock-viz_v0.1.7_win10-64.zip -d ./bedrock
+          cd bedrock
+
+      # Download latest-version of HaneulCity map into `input` folder.
+      - name: Download map file
+        run: |
+          wget https://github.com/haneulcity/haneulcity/archive/refs/heads/master.zip
+          unzip master.zip -d ./input
+    
+      # Build map file -- Output Folder name == `map`
+      - name: Create online map
+        run: ./bedrock-viz --db ./input --out ./map --html-most
+
+      # Clone repository to upload online map service.
+      - name: Clone web-service repo
+        run: |
+          cd ..
+          git clone https://github.com/haneulcity/hncity-web-development.git
+      
+      # Copy folder
+      - name: Copy new map
+        run: |
+          cd hncity-web-development
+          rm -rf ./map
+          cp ../bedrock/map ./map
+          cd ..
+      
+      #Pushes to web service repository or branch using cpina's GitHub Action Push To Another Repository
+      - name: Pushes to web service repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'hncity-web-development'
+          destination-github-username: 'haneulcity'
+          destination-repository-name: 'hncity-web-development'
+          user-email: lego37yoon@outlook.com
+          user-name: lego37yoon
+          commit-message: Update map service
+          target-branch: main
