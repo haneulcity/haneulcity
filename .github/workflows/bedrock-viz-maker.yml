@@ -17,15 +17,31 @@ on:
 jobs:
   build:
     # Uses latest version of Windows Server because this runner uses pre-compiled version of bedrock-viz zip file.
-    runs-on: windows-latest
+    runs-on: ubuntu-20.04
 
     steps:
+      # Configure Build Environment
+      - name: Install Packages
+        run: |
+          sudo apt install -y cmake
+          sudo apt install -y libpng++-dev zlib1g-dev
+          sudo apt install -y libboost-program-options-dev
+
+
       # Download v.0.1.7 (MCBE 1.18.x support) version of bedrock-viz zip file.
       - name: Download bedrock-viz script
         run: |
-          wget https://github.com/bedrock-viz/bedrock-viz/releases/download/v0.1.7/bedrock-viz_v0.1.7_win10-64.zip
-          unzip bedrock-viz_v0.1.7_win10-64.zip -d ./bedrock
-          cd bedrock
+          git clone --recursive https://github.com/bedrock-viz/bedrock-viz.git
+          cd bedrock-viz
+          git apply -p0 patches/leveldb-1.22.patch
+          git apply -p0 patches/pugixml-disable-install.patch
+
+      # Build latest version of bedrock-viz
+      - name: Build bedrock-viz
+        run: |
+          mkdir build && cd build
+          cmake ..
+          make
 
       # Download latest-version of HaneulCity map into `input` folder.
       - name: Download map file
