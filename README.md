@@ -37,4 +37,4 @@ For Windows 10 Edition:
 MINECRAFT is a trademark of Mojang.
 Windows is a trademark of Microsoft Corp.
 
-ⓒ2013 - 2021 paperbox and haneulcity contributors. All right reserved.
+ⓒ2013 - 2022 haneulcity contributors. All right reserved.
