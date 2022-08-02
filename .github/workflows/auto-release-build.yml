@@ -23,7 +23,7 @@ jobs:
       - name: Check dependencies
         run: |
           echo Check if zip installed
-          apt install zip -y
+          sudo apt install zip -y
       
       # zip map file
       - name: Add files to package
