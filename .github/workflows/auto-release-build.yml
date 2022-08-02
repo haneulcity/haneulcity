@@ -1,0 +1,62 @@
+# This is a basic workflow to help you get started with Actions
+
+name: HaneulCity Auto Release System
+
+# HaneulCity builds are only distributed by push.
+on:
+  push:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, 'Build')"
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v3
+
+      # Check if zip package installed
+      - name: Check dependencies
+        run: |
+          echo Check if zip installed
+          apt install zip -y
+      
+      # zip map file
+      - name: Add files to package
+        run: |
+          cd $GITHUB_WORKSPACE
+          zip build.zip ./*
+          cp build.zip build.mcworld
+      
+      - run: echo Upload build result to use in next step
+      
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: haneulcity-map
+          path: ./build.mcworld
+    
+  release:
+    runs-on: ubuntu-latest
+    needs: build
+      
+    steps:
+      - name: Download build result
+        uses: actions/download-artifact@v3
+        with:
+          name: haneulcity-map
+      
+      - name: Release build
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          title: ${{ github.event.head_commit.message }}
+          body: "자세한 내용은 [공식 웹사이트 공지사항](https://hncity.paperbox.moe/news/)을 참고하세요."
+          prerelease: true
+          files: |
+            build.mcworld
