@@ -2,7 +2,7 @@
 ## One of the MCPE(Bedrock Engine) Open Binary city map from South Korea
 
 Welcome to HaneulCity - A huge city map project.
-Please visit our [website](https://hncity.paperbox.moe) to get more information. Currently, Korean and English Languages are supported.
+Please visit our [website](https://hncity.paperbox.moe) to get more information. Currently, supports only Korean language.
 
 ## CURRENT BUILD
 
