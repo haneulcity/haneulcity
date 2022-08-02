@@ -33,28 +33,6 @@ jobs:
           cp build.zip build.mcworld
           rm build.zip
       
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: haneulcity-map
-          path: ./build.mcworld
-    
-  release:
-    runs-on: ubuntu-latest
-    needs: build
-      
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      
-      - name: move into repo
-        run: cd $GITHUB_WORKSPACE
-    
-      - name: Download build result
-        uses: actions/download-artifact@v3
-        with:
-          name: haneulcity-map
-      
       - name: Release build
         uses: softprops/action-gh-release@v1
         env:
