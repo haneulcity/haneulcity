@@ -55,7 +55,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          title: ${{ github.event.head_commit.message }}
+          name: ${{ github.event.head_commit.message }}
           body: "자세한 내용은 [공식 웹사이트 공지사항](https://hncity.paperbox.moe/news/)을 참고하세요."
           prerelease: true
           files: |
