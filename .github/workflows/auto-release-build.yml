@@ -31,6 +31,7 @@ jobs:
           cd $GITHUB_WORKSPACE
           zip build.zip ./*
           cp build.zip build.mcworld
+          rm build.zip
       
       - run: echo Upload build result to use in next step
       
@@ -38,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: haneulcity-map
-          path: ./build.mcworld
+          path: ./*
     
   release:
     runs-on: ubuntu-latest
